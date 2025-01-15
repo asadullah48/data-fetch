@@ -14,7 +14,7 @@ export default function Home() {
         {
             id: 'post-1',
             title: 'Rendering in Next.js CSR & SSR',
-            date: '2025-1-1',
+            date: '2025-1-24',
             excerpt: 'Learn how Next.js renders content on the client and server.',
         },
 
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-8 flex flex-col justify-center items-center">
             <p className='w-[80%] h-[1px] bg-white mb-10'></p>
             <h1 className="text-5xl font-bold text-center mb-8 text-[#9333EA]">
-                The <span className={`${agbalumo.className}`}>DATA FETCHING</span> Blog
+                The <span className={`${agbalumo.className}`}>TECHIE</span> Blog
             </h1>
             <p className="text-lg text-center mb-12 text-gray-700">
                 Explore tips, insights and experiences of a Dev.

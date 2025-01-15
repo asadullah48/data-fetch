@@ -20,12 +20,12 @@ export default function Navbar() {
                 {/* Logo and Links */}
                 <div className="flex justify-center items-center gap-10">
                 <Link href={"/"}>
-                    <h1 className={`${agbalumo.className} text-4xl`}>Data Fetch</h1>
+                    <h1 className={`${agbalumo.className} text-4xl`}>Data</h1>
                 </Link>
                     
                     <div className="hidden lg:flex gap-10">
-                        <Link href={"/about"} className="text-lg mt-2">About Fetching</Link>
-                        <Link href={"/learnTech"} className="text-lg mt-2">Learn Fetching</Link>
+                        <Link href={"/about"} className="text-lg mt-2">About Techie</Link>
+                        <Link href={"/learnTech"} className="text-lg mt-2">Learn Tech</Link>
                         <Link href={"/blog"} className="text-lg mt-2">Blog</Link>
                     </div>
                 </div>
@@ -33,12 +33,12 @@ export default function Navbar() {
                 {/* Navbar Buttons */}
                 <div className="hidden md:flex gap-10">
                     <Link href={"/login"} className="text-lg mt-4">Login</Link>
-                    <Link href={"/signup"} className="text-lg mt-2 h-12 bg-PrimaryPurple flex justify-center items-center w-52 rounded-xl">Become a Fetcher</Link>
+                    <Link href={"/signup"} className="text-lg mt-2 h-12 bg-PrimaryPurple flex justify-center items-center w-52 rounded-xl">Become a Techie</Link>
                 </div>
 
                 {/* Hamburger Menu for Mobile */}
                 <div className="lg:hidden flex items-center gap-4">
-                    {/* <h1 className="font-bold text-4xl">Data Fetch</h1> */}
+                    {/* <h1 className="font-bold text-4xl">Techie</h1> */}
                     <button onClick={toggleMenu} className="text-white text-2xl">
                         {/* Hamburger Icon */}
                         {isMenuOpen ? 'X' : '☰'}
@@ -50,8 +50,8 @@ export default function Navbar() {
             {isMenuOpen && (
                 <div className='z-50 h-screen fixed top-1/4 w-full flex justify-center items-center bg-[#1b2232]/70 backdrop-blur-md '>
                 <div className=" lg:hidden  text-white  text-center py-4 flex flex-col justify-center items-start gap-5">
-                    <Link href={"/about"} onClick={()=> setIsMenuOpen(false)} className="block text-lg mt-2">About Fetching</Link>
-                    <Link href={"/learnTech"} onClick={()=> setIsMenuOpen(false)} className="block text-lg mt-2">Learn fetching</Link>
+                    <Link href={"/about"} onClick={()=> setIsMenuOpen(false)} className="block text-lg mt-2">About Techie</Link>
+                    <Link href={"/learnTech"} onClick={()=> setIsMenuOpen(false)} className="block text-lg mt-2">Learn Tech</Link>
                     <Link href={"/blog"} onClick={()=> setIsMenuOpen(false)} className="block text-lg mt-2">Blog</Link>
                     <Link href={"/login"} onClick={()=> setIsMenuOpen(false)} className="block text-lg mt-2">Login</Link>
                     <Link href={"/signup"} onClick={()=> setIsMenuOpen(false)} className=" text-lg mt-2 h-12 bg-PrimaryPurple flex justify-start pl-2 items-center w-52 rounded-xl">Become a Techie</Link>

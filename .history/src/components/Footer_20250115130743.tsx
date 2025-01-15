@@ -50,7 +50,7 @@ export default function Footer() {
               
             </div>
             <p className="text-slate-400">
-            Connect with me or stay updated on my work through these platforms
+              Get in touch or follow my work through any of these channels.
             </p>
           </div>
         </div>

@@ -40,17 +40,17 @@ export default function Footer() {
                 <Github size={24} />
               </Link>
               
-              <Link href="https://www.linkedin.com/in/asadullah-shafique-a00679325/" className="hover:text-slate-200 transition-colors">
+              <Link href="https://www.linkedin.com/in/habib007ab92282/" className="hover:text-slate-200 transition-colors">
                 <Linkedin size={24} />
               </Link>
 
-              <Link href="mailto:asadullahshafique@hotmail.com" className="hover:text-slate-200 transition-colors">
+              <Link href="mailto:habibahmed918131@gmail.com" className="hover:text-slate-200 transition-colors">
                 <Mail size={24} />
               </Link>
               
             </div>
             <p className="text-slate-400">
-            Connect with me or stay updated on my work through these platforms
+              Get in touch or follow my work through any of these channels.
             </p>
           </div>
         </div>

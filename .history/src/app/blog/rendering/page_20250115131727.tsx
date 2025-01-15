@@ -41,7 +41,7 @@ export default function RenderingBlog() {
       <div className="flex justify-center items-center w-full">
         <div className="my-5 flex flex-col justify-center items-start w-[60%]">
           <h1 className="text-3xl mb-4 font-semibold ">
-            CSR: Client Side Rendering
+            CSR: Client Side RendEring
           </h1>
 
           <ul className="list-disc tracking-wide mb-8 text-gray-400 flex flex-col gap-5">

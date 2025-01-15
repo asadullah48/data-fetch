@@ -44,13 +44,13 @@ export default function Footer() {
                 <Linkedin size={24} />
               </Link>
 
-              <Link href="mailto:asadullahshafique@hotmail.com" className="hover:text-slate-200 transition-colors">
+              <Link href="mailto:asadullahshafique@.com" className="hover:text-slate-200 transition-colors">
                 <Mail size={24} />
               </Link>
               
             </div>
             <p className="text-slate-400">
-            Connect with me or stay updated on my work through these platforms
+              Get in touch or follow my work through any of these channels.
             </p>
           </div>
         </div>
