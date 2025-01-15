@@ -19,11 +19,11 @@ export default function Home() {
         {/* main headings */}
         <div className="flex justify-center items-center gap-10 mt-20 flex-wrap">
           <h1 className={` text-5xl font-bold `}>Learn</h1>
-          <h1 className={` text-5xl font-bold relative after:contents-[''] after:absolute after:w-0 after:h-2 after:bg-PrimaryPurple after:-bottom-2 after:left-0 after:transition-all after:duration-300 hover:after:w-full `}>Faster</h1>
+          <h1 className={` text-5xl font-bold relative after:contents-[''] after:absolute after:w-0 after:h-2 after:bg-PrimaryV after:-bottom-2 after:left-0 after:transition-all after:duration-300 hover:after:w-full `}>Faster</h1>
           <h1 className={`${poppins.className} text-5xl text-PrimaryPurple `}>&</h1>
           <h1 className="relative text-5xl font-bold text-white">
             Better
-            <span className="absolute left-1 top-1 w-full h-2 bg-purple-500 -z-10"></span>
+            <span className="absolute left-1 top-1 w-full h-2 bg-blue-500 -z-10"></span>
           </h1>
         </div>
 
@@ -33,7 +33,7 @@ export default function Home() {
         {/* buttons/links  */}
         <div className="flex justify-center items-center gap-7 mt-10 flex-wrap">
           <Link href={"/signup"} className="flex justify-center items-center h-[56px] w-[168px] bg-PrimaryPurple rounded-lg">Join Now</Link>
-          <Link href={"/learnTech"} className="flex justify-center items-center h-[56px] w-[168px] rounded-lg border-[2px] border-white">Learn Fetch </Link>
+          <Link href={"/learnTech"} className="flex justify-center items-center h-[56px] w-[168px] rounded-lg border-[2px] border-white">Learn Tech </Link>
         </div>
 
 

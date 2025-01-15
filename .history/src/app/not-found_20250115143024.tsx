@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NotFound = () => {
     return (
-      <div className="h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#1b2232] to-[#5d10a5] relative overflow-hidden text-white">
+      <div className="h-screen flex flex-col items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#1b2232] to-[#180ae4] relative overflow-hidden text-white">
         {/* Background Animated Elements */}
         <div className="absolute inset-0 flex justify-center items-center">
           <div className="w-[600px] h-[600px] bg-gradient-to-r from-[#9333EA] to-[#1b2232] rounded-full opacity-10 animate-pulse"></div>
