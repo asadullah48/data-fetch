@@ -3,15 +3,15 @@ import React from 'react'
 
 export default function learnTechPage() {
   return (
-    <div className="h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#1b2232] to-[#1fe951] relative overflow-hidden">
+    <div className="h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#1b2232] to-[#082c11] relative overflow-hidden">
             {/* Background Elements */}
             <div className="absolute inset-0 flex justify-center items-center">
-                <div className="w-[500px] h-[500px] bg-gradient-to-r from-[#1b2232] to-[#1fe951] rounded-full opacity-20 animate-pulse"></div>
+                <div className="w-[500px] h-[500px] bg-gradient-to-r from-[#1b2232] to-[#082c11] rounded-full opacity-20 animate-pulse"></div>
             </div>
 
             {/* Floating Animated Shapes */}
             <div className="absolute inset-0">
-                <div className="absolute top-10 left-10 w-24 h-24 bg-[#1fe951] rounded-full blur-xl opacity-30 animate-float" />
+                <div className="absolute top-10 left-10 w-24 h-24 bg-[#082c11] rounded-full blur-xl opacity-30 animate-float" />
                 <div className="absolute bottom-20 right-20 w-36 h-36 bg-[#0f172a] rounded-lg blur-xl opacity-30 animate-float delay-2000" />
                 <div className="absolute top-20 right-10 w-20 h-20 bg-[#1b2232] rounded-lg blur-lg opacity-40 animate-float delay-4000" />
             </div>
@@ -29,7 +29,7 @@ export default function learnTechPage() {
                 <div className="mt-10">
                     <Link
                         href="/"
-                        className="px-6 py-3 text-lg font-bold text-white bg-gradient-to-r from-[#082c11] to-[#1fe951] rounded-full shadow-white shadow-md transform transition hover:scale-105 hover:shadow-2xl focus:outline-none"
+                        className="px-6 py-3 text-lg font-bold text-white bg-gradient-to-r from-[#082c11] to-[#1b2232] rounded-full shadow-white shadow-md transform transition hover:scale-105 hover:shadow-2xl focus:outline-none"
                     >
                         Back Home
                     </Link>

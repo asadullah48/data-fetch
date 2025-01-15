@@ -29,7 +29,7 @@ export default function learnTechPage() {
                 <div className="mt-10">
                     <Link
                         href="/"
-                        className="px-6 py-3 text-lg font-bold text-white bg-gradient-to-r from-[#082c11] to-[#1fe951] rounded-full shadow-white shadow-md transform transition hover:scale-105 hover:shadow-2xl focus:outline-none"
+                        className="px-6 py-3 text-lg font-bold text-white bg-gradient-to-r from-[#082c11] to-[#1b2232] rounded-full shadow-white shadow-md transform transition hover:scale-105 hover:shadow-2xl focus:outline-none"
                     >
                         Back Home
                     </Link>
